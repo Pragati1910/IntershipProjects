@@ -1,2 +1,2 @@
 # IntershipProjects
-This is a rep for IntershipProjects
+This is a repo for IntershipProjects

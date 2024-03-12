@@ -1,0 +1,93 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #74EBD5;
+background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+    color: #fff;
+}
+
+* {
+    box-sizing: border-box;
+  }  
+  header {
+    color: #171515;
+    padding: 20px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .pricing-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+  }
+  
+  .pricing-card {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .pricing-card h2 {
+    color: #333;
+  }
+  
+  .pricing-card h3 {
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  .pricing-card ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .pricing-card ul li {
+    margin-bottom: 10px;
+    color: #171515;
+  }
+  
+  .btn {
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-top: 20px;
+  }
+  
+  .btn:hover {
+    background-color: #666;
+  }
+  footer {
+    text-align: center;
+    color: #0c0b0b;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
+.currency-toggle,
+.unit-toggle {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.currency-toggle label,
+.unit-toggle label {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.currency-toggle select,
+.unit-toggle select {
+    padding: 5px;
+    font-size: 16px;
+}
+
+  
